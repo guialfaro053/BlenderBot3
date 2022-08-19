@@ -1,7 +1,6 @@
 # How to run BlenderBot3 3B
 
  1. **Clone ParlAI repository and install ParlAI**:
- 
         `git clone https://github.com/facebookresearch/ParlAI.git ~/ParlAI`
         `cd ~/ParlAI; python setup.py develop`
         Several problems can arise when running the latter comand. Most of the problems are related to CUDA compatibility problems. The installation was tested on Windows, Mac, and Linux, from which only Linux had no problems during installation. Also, `pip install parlai` although it does install all ParlAI instances, it has not been fully updated, and thus, it does not run BB3 yet.
